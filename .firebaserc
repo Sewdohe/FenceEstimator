@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fence-estimator-c533e": {
+      "hosting": {
+        "fence-estimator": [
+          "fence-estimator-c533e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fence-estimator-c533e"
+  }
+}
