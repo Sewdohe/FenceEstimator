@@ -16,6 +16,9 @@ import { MatListModule } from '@angular/material/list';
 import { CanvasComponent } from './canvas/canvas.component';
 import { MaterialSettingsComponent } from './material-settings/material-settings.component';
 import { ResultsComponent } from './results/results.component';
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { ResultsComponent } from './results/results.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

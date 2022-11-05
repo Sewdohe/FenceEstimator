@@ -1,1 +1,16 @@
-<p>canvas works!</p>
+<body>
+<div class="controls">
+  <div class="input">
+    <label>Size:</label>
+    <input type="number" max="100" matInput placeholder="Size" value="64" [(ngModel)]="gridSize"  (ngModelChange)="createGrid()">
+  </div>
+  <button type="button">Create Grid</button>
+  <button type="button" (click)="removeElements()">Remove Grid</button>
+
+
+</div>
+
+<div class="grid" #grid>
+</div>
+
+</body>
